@@ -1,0 +1,327 @@
+      /* css untuk semua margin dan padding default pada
+      setiap web tereset */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* css untuk mengatur navigation bar */
+      .header {
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        height: 70px;
+        box-shadow: 4px 4px 9px 1px rgba(0,0,0,0.4);
+      }
+
+      /* css untuk mengatur tata letak dan style text eight sttorre 
+      .header-logo {
+      color: #387481;
+      float: left;
+      font-family: 'Sigmar', cursive;
+      font-size: 29px;
+      padding: 17px 40px 10px 10px;
+      }
+      */
+
+      .header-logo {
+        position: fixed;
+        margin: 5px 2px 2px 20px;
+      
+      }
+
+      .logo-eight {
+        position: fixed;
+        margin: 14px 20px 20px 0px;
+      }
+
+      .text {
+        position: fixed;
+        margin: 20px 2px 2px 40px;
+      }
+      /* css untuk mengatur li dari home check invoice profil */
+      .header-list li {
+        float: right;
+        list-style: none;
+        padding: 32px 25px 30px 10px;
+      }
+
+      /* css untuk mengatur style dari li home check invoice profil  */
+      .author {
+        font-family: 'Kanit', sans-serif;
+        background-color: rgb(255, 255, 255);
+        color: #387481;
+        text-decoration: none;
+      }
+      
+      p a:hover {
+        color: rgb(0, 0, 0);
+      }
+
+      /* css untuk mengatur style ketika ingin meng klik li home check invoice profil */
+      ul li a:hover {
+        color: rgb(192, 184, 184);
+      }
+
+      /* css untuk mengatur properti  shape dari moonton dan mobile legends */
+       .pertama {
+        position: absolute;
+        z-index: -1;
+        width: 122px;
+        height: 155px;
+        background-color: rgb(255, 255, 255);
+        margin: 500px 1px 1px 250px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.4);
+        display:inline-block;
+       }
+       .kedua {
+        width: 97px;
+        height: 56px;
+        background-color: #387481;
+        margin: 5px 25px 2px 14px;
+        border-radius: 10px;
+        
+       }
+       .ketiga {
+        position: absolute;
+        z-index: -1;
+        width: 122px;
+        height: 155px;
+        background-color: rgb(255, 255, 255);
+        margin: 500px 1px 1px 400px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.4);
+        display:inline-block;
+       }
+       .keempat {
+        width: 97px;
+        height: 56px;
+        background-color: #387481;
+        margin: 5px 25px 2px 14px;
+        border-radius: 10px;
+
+       }
+       .kelima {
+        position: absolute;
+        z-index: -1;
+        width: 122px;
+        height: 155px;
+        background-color: rgb(255, 255, 255);
+        margin: 500px 1px 1px 550px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.4);
+        display:inline-block;
+       }
+       .keenam {
+        width: 97px;
+        height: 56px;
+        background-color: #387481;
+        margin: 5px 2px 2px 14px;
+        border-radius: 10px;
+       }
+       .ketujuh {
+        position: absolute;
+        z-index: -1;
+        width: 122px;
+        height: 155px;
+        background-color: rgb(255, 255, 255);
+        margin: 500px 1px 1px 699px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.4);
+        display:inline-block;
+       }
+       .kedelapan {
+        width: 97px;
+        height: 56px;
+        background-color: #387481;
+        margin: 5px 2px 2px 14px;
+        border-radius: 10px;
+       }
+       .kesembilan {
+        position: absolute;
+        z-index: -1;
+        width: 122px;
+        height: 155px;
+        background-color: rgb(255, 255, 255);
+        margin: 500px 1px 1px 850px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.4);
+        display:inline-block;
+       }
+       .kesepuluh {
+        width: 97px;
+        height: 56px;
+        background-color: #387481;
+        margin: 5px 2px 2px 14px;
+        border-radius: 10px;
+       }
+
+       /* css untuk mengatur fon dari mobile legends*/
+       .mobile-legend {
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-family:sans-serif;
+        font-size: 15px medium;
+        padding:10px 14px 20px 1px;
+       }
+
+       .free-fire {
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-family:sans-serif;
+        font-size: 15px medium;
+        padding:18px 14px 20px 18px;
+       }
+
+       .pubg-mobile {
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-family:sans-serif;
+        font-size: 15px medium;
+        padding:10px 14px 20px 1px;
+       }
+
+       .genshin-impact {
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-family:sans-serif;
+        font-size: 15px medium;
+        padding:10px 14px 20px 1px;
+       }
+
+       .valorant {
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-family:sans-serif;
+        font-size: 15px medium;
+        padding:18px 14px 20px 18px;
+       }
+
+       /* css untuk mengatur font dari moonton*/ 
+       .moonton {
+        padding: 25px 9px 1px 22px;
+        margin: 75px 20px 1px 9px;
+       }
+
+       /* css untuk mengatur posisi dan style pamflet */
+       .pamflet {
+        position: absolute;
+        z-index: -1;
+        left: 250px;
+        top: 89px;
+        border-radius: 10px;
+        box-shadow: -1px 4px 10px 2px rgba(0,0,0,0.5);
+       }
+       .grid {
+        display: grid;
+        grid-template-columns: repeat(3,0fr);
+        margin: 20px;
+        grid-gap: 1px ;
+       }
+       
+       /* css untuk mengatur warna dari body html */
+       .body {
+        background-color: #387481;
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        border-radius: 30px;
+        z-index: -1;
+       }
+
+       /* css dari text game list */
+       .game-list {
+        background-color: #ffff;
+        position: absolute;
+        width: 90px;
+        height: 30px;
+        padding: 5px 100px 5px 5px;
+        margin: 460px 80px 20px 260px;
+       }
+       
+       .text-game-list {
+        font-size: 15px;
+        font-family: 'Righteous', cursive;
+       }
+
+       /* css dari gambar ml ff pubg genshin valo */
+       .gambar-ml {
+        position: absolute;
+        border-radius: 15px;
+        top: 546px;
+        left: 279px;
+       }
+       
+       .gambar-ff {
+        position: absolute;
+        border-radius: 15px;
+        top: 546px;
+        left: 429px;
+       }
+       .gambar-pubg {
+        position: absolute;
+        border-radius: 15px;
+        top: 546px;
+        left: 579px;
+       }
+       .gambar-genshin-impact {
+        position: absolute;
+        border-radius: 15px;
+        top: 546px;
+        left: 728px;
+       }
+       .gambar-valorant {
+        position: absolute;
+        border-radius: 15px;
+        top: 546px;
+        left: 879px;
+       }
+
+       /* css dari searchh bar Cari Game Anda Di Sini */
+       form {
+        position: absolute;
+        width:500px;
+        padding: 350px 9px 9px 750px;
+        margin:50px auto;
+        left: 40px;
+      
+      }
+      .search {
+      font-family: 'Paytone One', sans-serif;
+      font-size: 14px;
+      padding: 8px 55px 8px 4px;
+      background: #fafafa;
+      border: 1px solid #387481;
+      border-radius: 6px;
+      }
+      .button {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          position:relative;
+          padding: 11px 15px;
+          left: -60px;
+          border: 2px solid #387481;
+          background-color: #387481;
+          color: #fafafa;
+          border-radius: 9px;
+      }
+      .button:hover  {
+          background-color: #fafafa;
+          color:#387481;
+      }
+       /*
+       .coba{
+        background-color: aqua;
+        width: 200px;
+        height: 10000px;
+       }*/
